@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="win" layout="vertical">
+
+		<Require id="navbar" src="partials/_navbar" onClick="close" />
+
+		<ScrollView class="container">
+
+			<View class="form">
+				<Widget id="lastname" src="input-materialdesign" />
+				<Widget id="firstname" src="input-materialdesign" />
+				<Widget id="email" src="input-materialdesign" />
+				<Widget id="password" src="input-materialdesign" />
+			</View>
+
+			<Button class="btn" onClick="submit" />
+
+		</ScrollView>
+	</Window>
+</Alloy>

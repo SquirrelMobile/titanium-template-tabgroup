@@ -1,0 +1,22 @@
+<Alloy>
+	<NavigationWindow module="xp.ui" id="nav">
+		<Window id="win">
+			<ScrollView class="container">
+
+				<Label class="titleLbl lblTitleLight" />
+
+				<View class="form">
+					<Widget id="login" src="input-materialdesign" />
+					<Widget id="password" src="input-materialdesign" />
+				</View>
+
+				<Button class="btn" title="Se connecter" onClick="connect" />
+
+				<Button class="btn" title="S'inscrire" onClick="openWin" type="signup" />
+
+				<Label id="lostPassword" class="lblBtn" onClick="openWin" type="lostPassword" />
+
+			</ScrollView>
+		</Window>
+	</NavigationWindow>
+</Alloy>

@@ -35,6 +35,7 @@
     "nl.fokkezb.loading": "*",
     "de.manumaticx.pagingcontrol": "*",
     "com.mp5systems.rippleeffect": "*",
-    "input-materialdesign": "*"
+    "input-materialdesign": "*",
+    "fr.squirrel.tutorial": "*"
   }
 }

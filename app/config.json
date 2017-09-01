@@ -36,6 +36,7 @@
     "de.manumaticx.pagingcontrol": "*",
     "com.mp5systems.rippleeffect": "*",
     "input-materialdesign": "*",
-    "fr.squirrel.tutorial": "*"
+    "fr.squirrel.tutorial": "*",
+    "com.caffeinalab.titanium.calendar": "*"
   }
 }

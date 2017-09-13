@@ -44,7 +44,7 @@
 },
 "#monthScroll": {
 	width: Ti.UI.FILL,
-	height: Ti.UI.SIZE
+	height: Ti.UI.FILL
 },
 ".month": {
 	width: Ti.UI.FILL,

@@ -5,5 +5,8 @@
 		<Button top="50" class="btn" onClick="openWindow">Open new Window</Button>
 
 		<Button top="100" class="btn" onClick="openCalendar">Open calendar</Button>
+
+		<!-- <Label bottom="10" class="fa size" text="\uf0c0" />
+		<Label bottom="30" class="ma size" text="\ue7fb" /> -->
 	</View>
 </Alloy>

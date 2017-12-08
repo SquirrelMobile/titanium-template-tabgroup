@@ -1,5 +1,7 @@
 # Template Application Axway Appcelerator Titanium Mobile SDK with tabgroup navigation
 
+![Template Titanium mobile tabgroup navigation](http://www.squirrel.fr/wp-content/uploads/2017/12/brand.jpg "TitaniumFullApp")
+
 ![Template Titanium mobile tabgroup navigation](https://github.com/SquirrelMobile/titanium-template-tabgroup/blob/master/screens/animated.gif?raw=true "Template Titanium mobile tabgroup navigation")
 
 ## Handle fonts

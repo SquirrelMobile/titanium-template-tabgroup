@@ -11,7 +11,6 @@ if(!ENV_PROD){
 	require("core").detectCrash();
 }
 
-//Activer les notification push avec Pushwoosh
 require('net/apiconfig').init();
 
 if(OS_IOS){

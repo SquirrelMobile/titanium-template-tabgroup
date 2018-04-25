@@ -37,6 +37,9 @@ var tabmenu = [
   {
      id : "menu",
      controller : 'menu',
+     image : {
+       text : '\uf141'
+     },
      title : 'Autre',
      last : true
   }
@@ -74,7 +77,7 @@ var tabsubmenu = [
      id : 'logout',
      controller : 'logout',
      image : {
-       text : '\uf08b'
+       text : '\uf2f5'
      },
      title : 'Déconnexion',
      last : true

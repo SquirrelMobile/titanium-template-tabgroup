@@ -19,8 +19,13 @@ var menuTab = null;
      $.tabgroup.add(objTab[m.controller].getView());
    });
 
-   _.defer(function(){
-     objTab[menu[0].controller].getView().fireEvent('click');
+   var m = menuTab[0];
+   handleClick({
+     source : {
+       controller : m.controller,
+       type : 'menu',
+       idMenu : m.id
+     }
    });
 
  };

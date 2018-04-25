@@ -4,7 +4,7 @@ var currentController = null;
 var menuOpen = false;
 var menuC = null;
 var menu = null;
-var enabledCache = false;
+var enabledCache = true;
 
 var tabmenu = [
   {

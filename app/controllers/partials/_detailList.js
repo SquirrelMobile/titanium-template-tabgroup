@@ -85,7 +85,7 @@ function openWindow(e){
         nav : {
           backgroundColor : 'blue',
         },
-        back : {
+        btnLeft : {
           visible : true
         },
         logo : {

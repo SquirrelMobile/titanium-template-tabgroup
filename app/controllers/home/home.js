@@ -43,7 +43,7 @@ function openWindow(e){
     data : {
       controller : 'partials/_detail',
       navbar : {
-        back : {
+        btnLeft : {
           visible : true
         },
         logo : {

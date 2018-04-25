@@ -30,12 +30,6 @@ var calendar = null;
 })($.args);
 
 /**
- * @type {Object} dispatcher of menu item
- */
-var dispatcher = require('dispatcher');
-
-
-/**
  * openWindow - Open new window
  *
  * @param  {Object} e object
@@ -58,7 +52,7 @@ function openWindow(e){
       }
     }
   };
-  dispatcher.trigger('openWindow', obj);
+  Alloy.Globals.dispatcher.trigger('openWindow', obj);
 
 }
 

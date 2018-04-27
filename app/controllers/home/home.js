@@ -52,7 +52,7 @@ function openWindow(e){
       }
     }
   };
-  Alloy.Globals.dispatcher.trigger('openWindow', obj);
+  Alloy.Globals.events.trigger('openWindow', obj);
 
 }
 
@@ -91,3 +91,7 @@ function updateDate(e){
   var date = Alloy.Globals.moment(e.date);
   alert('Date choisie ' + date.format('dddd DD MMMM YYYY'));
 }
+
+$.load = function(){
+  //reload data here that enabledCache is true on dashboard.js
+};

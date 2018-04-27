@@ -23,8 +23,8 @@
        window : Alloy.createController('dashboard').getView()
      });
      $nav.open();
-     Alloy.Globals.dispatcher.off('openWindow');
-     Alloy.Globals.dispatcher.on('openWindow', handleOpenWin);
+     Alloy.Globals.events.off('openWindow');
+     Alloy.Globals.events.on('openWindow', handleOpenWin);
 
    }else{
      Alloy.createController('login/login', args).getView().open();
@@ -59,7 +59,7 @@
    win.on('select' , function(e){
 
      if(o.dispatcher){
-       Alloy.Globals.dispatcher.trigger(o.dispatcher, e);
+       Alloy.Globals.events.trigger(o.dispatcher, e);
      }
 
      close();

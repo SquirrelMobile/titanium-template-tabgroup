@@ -89,7 +89,7 @@ function updateDate(e){
   //e.reset
   //e.date
   var date = Alloy.Globals.moment(e.date);
-  alert('Date choisie ' + date.format('dddd DD MMMM YYYY'));
+  alert('Chosen date ' + date.format('dddd DD MMMM YYYY'));
 }
 
 $.load = function(){

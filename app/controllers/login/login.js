@@ -66,8 +66,8 @@ function connect(e){
 
     if(!require('core').valideEmail(login)){
       Ti.UI.createAlertDialog({
-        title : 'Attention',
-        message : 'Merci de saisir un email valide'
+        title : L('warning'),
+        message : L('emailInvalidMsg')
       }).show();
       return false;
     }

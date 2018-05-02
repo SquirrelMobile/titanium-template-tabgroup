@@ -20,7 +20,7 @@
       "gcmID" : "XXXXXXXXXXXX"
     },
     "crash" : {
-      "email" : "thomas@squirrel.fr"
+      "email" : "support@squirrel.fr"
     }
   },
   "env:development": {

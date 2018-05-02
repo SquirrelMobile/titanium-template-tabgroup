@@ -70,7 +70,7 @@ function submit(e){
       password : password,
       email : email
     };
-    //Alloy.Globals.loading.show("Chargement...");
+    //Alloy.Globals.loading.show(L('loading'));
     /*Alloy.Globals.Api.signup({body : obj }, function(e){
 
     });*/

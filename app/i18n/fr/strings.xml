@@ -42,4 +42,6 @@
 	<string name="crashTitle">Plantage de l'application</string>
 	<string name="locationActiveMsg">Veuillez autoriser le partage de votre emplacement afin d'utiliser l'application</string>
 	<string name="errorMessageData">Erreur lors de la récupération des données</string>
+	<string name="next">Suivant</string>
+	<string name="close">Fermer</string>
 </resources>

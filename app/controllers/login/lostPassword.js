@@ -40,7 +40,7 @@ function submit(e){
     return false;
   }
 
-  //Alloy.Globals.loading.show("Chargement...");
+  //Alloy.Globals.loading.show(L('loading'));
   /*Alloy.Globals.Api.lostPassword({body :{email : $.email.value}}, function(e){
 
   });*/

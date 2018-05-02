@@ -2,9 +2,9 @@
 	<View class="container">
 		<Require src="partials/_navbar" id="navbar" />
 
-		<Button top="50" class="btn" onClick="openWindow">L('openNewWin')</Button>
+		<Button top="50" class="btn" onClick="openWindow" title="L('openNewWin')" />
 
-		<Button top="100" class="btn" onClick="openCalendar">L('openCalendar')</Button>
+		<Button top="100" class="btn" onClick="openCalendar" title="L('openCalendar')" />
 
 	</View>
 </Alloy>

@@ -24,8 +24,11 @@
     <use-jscore-framework>true</use-jscore-framework>
     <plist>
       <dict>
+
         <key>CFBundleVersion</key>
         <string>1</string>
+        <key>ITSAppUsesNonExemptEncryption</key>
+        <false/>
         <key>NSPhotoLibraryAddUsageDescription</key>
 				<string>Autorisez l'application à accéder à votre galerie afin de sélectionner une photo de profil ?</string>
         <key>NSCameraUsageDescription</key>

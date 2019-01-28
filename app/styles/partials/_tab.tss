@@ -1,7 +1,7 @@
 ".btnMenu": {
   color : "white",
   top : 0,
-  height : 64,
+  bottom : 0,
   width: '25%',
   backgroundColor: Alloy.CFG.COLORS.main2
 }

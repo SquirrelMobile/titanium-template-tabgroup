@@ -5,6 +5,10 @@
 	font: { fontFamily : Alloy.CFG.FONTS.fa }
 }
 
+".faduo": {
+	font: { fontFamily : Alloy.CFG.FONTS.faduo }
+}
+
 ".fabrands": {
 	font: { fontFamily : Alloy.CFG.FONTS.fabrands }
 }
@@ -16,7 +20,6 @@
 ".falight": {
 	font: { fontFamily : Alloy.CFG.FONTS.falight }
 }
-
 //https://material.io/icons/
 //eg :<Label class="ma" text="\ue7fb" />
 ".ma" : {
